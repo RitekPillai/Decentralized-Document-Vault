@@ -1,0 +1,14 @@
+services:
+  postgres-db:
+    image: postgres:17-alpine
+    container_name: ddv_db
+    environment:
+        POSTGRES_USER: ddv_admin
+        POSTGRES_PASSWORD: ddv_password
+        POSTGRES_DB: ddv_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
