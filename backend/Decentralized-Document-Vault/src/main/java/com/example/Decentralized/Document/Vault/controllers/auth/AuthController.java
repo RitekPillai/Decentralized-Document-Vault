@@ -1,4 +1,4 @@
-package com.example.Decentralized.Document.Vault.controllers;
+package com.example.Decentralized.Document.Vault.controllers.auth;
 
 import com.example.Decentralized.Document.Vault.dto.auth.LoginRequestDTO;
 import com.example.Decentralized.Document.Vault.dto.auth.LoginResponseDTO;

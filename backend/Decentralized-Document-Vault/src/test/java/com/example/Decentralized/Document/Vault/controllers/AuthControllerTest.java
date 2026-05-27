@@ -1,5 +1,6 @@
 package com.example.Decentralized.Document.Vault.controllers;
 
+import com.example.Decentralized.Document.Vault.controllers.auth.AuthController;
 import com.example.Decentralized.Document.Vault.dto.auth.LoginRequestDTO;
 import com.example.Decentralized.Document.Vault.dto.auth.LoginResponseDTO;
 import com.example.Decentralized.Document.Vault.dto.auth.SignupRequestDTO;
